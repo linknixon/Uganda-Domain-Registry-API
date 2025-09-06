@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>{{ title }}</h2>
+<pre>{{ result | tojson(indent=2) }}</pre>
+<p><a href="/">Back</a></p>
+{% endblock %}
